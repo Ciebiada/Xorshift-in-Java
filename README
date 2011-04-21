@@ -4,4 +4,6 @@ Here's the paper: http://www.jstatsoft.org/v08/i14/paper
 
 I just ported it to Java as it lacks usigned type, it's paper's xor128() equivalent (tested it).
 
+At the end, the generated long is divided by max float to give you nice [0..1) number.
+
 That is probably your best bet if you need a good and fast PRNG for some monte carlo or other statistical simulations, not for cryptography though.
