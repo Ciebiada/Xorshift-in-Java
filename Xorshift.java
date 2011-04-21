@@ -1,5 +1,3 @@
-package org.reddot.math;
-
 public class Xorshift {
 	private int x = 123456789;
 	private int y = 362436069;
