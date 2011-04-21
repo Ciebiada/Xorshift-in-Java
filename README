@@ -1,0 +1,7 @@
+A very good (fast) random number generator from Geroge Marsaglia.
+
+Here's the paper: http://www.jstatsoft.org/v08/i14/paper
+
+I just ported it to Java as it lacks usigned type, and it's paper's xor128() equivalent (tested it).
+
+It's probably the best bet if you need good and fast PRNG for some monte carlo or other statistical simulations, not for cryptography though.
